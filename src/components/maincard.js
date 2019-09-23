@@ -17,7 +17,7 @@ class Main extends Component {
         let stateArray = this.state.dataArray
         const newDataArray = _.shuffle(stateArray).map((ele) => {
             let { id, url } = ele
-            return (<div className="col-3">
+            return (<div className="col-3" key={id}>
                 <img
                     src={url}
                     key={id}
