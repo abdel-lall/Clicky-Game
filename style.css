@@ -1,0 +1,50 @@
+.navbar{
+    
+    background-color:#9c132a;
+    color: white;
+}
+.title,.score{
+    color: white;
+
+}.jumbotron{
+    
+    margin-top: 70px;
+    background-image: url("./antiquebg1.jpg");
+    background-size: cover;
+    color: black;
+    font-weight: 300;
+}
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#9c132a;
+    color: white;
+    text-align: center;
+  }
+  .display-4{
+      font-size: 60px;
+      font-weight: 600;
+      color: #9c132a;
+      text-shadow: 4px 4px #000000;
+  }
+  .lead{
+      color: black;
+    font-size: 30px;
+    font-weight: 400;
+   
+  }
+  .maincontainer{
+      width: 60%;
+  }
+  .img-thumbnail:hover{
+      position: relative;
+      top: -20px;
+  }
+  .col-3{
+      widows: 100px;
+      height: 250px;
+      overflow: hidden;
+  }
+/* #87A3FF */
