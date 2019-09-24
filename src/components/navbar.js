@@ -7,7 +7,7 @@ class Navbar extends Component{
         <h1 className="title">Clicky game</h1>
         <h1
         className={`guess ${this.props.topscore===0 && this.props.score===0  ? "" :this.props.score===0  ? "wrong" :"correct"}`}
-        >{this.props.topscore===0 && this.props.score===0  ? "Click on an image to began" :this.props.score===0  ? "Wrong Guess" :"Correct Guess"}</h1>
+        >{this.props.topscore===0 && this.props.score===0  ? "Click on an image to begin" :this.props.score===0  ? "Wrong Guess" :"Correct Guess"}</h1>
         <h1 className="score">Score: {this.props.score} | Top Score: {this.props.topscore}</h1>
 
       </nav>)
